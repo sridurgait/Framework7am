@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-22T08:56:35 IST" name="Surefire suite" finished-at="2023-08-22T08:56:46 IST" duration-ms="10493">
+    <groups>
+      <group name="RegressionTest">
+        <method signature="Demo1Test.Demo1Test()[pri:0, instance:Pratice.Demo1Test@2ed0fbae]" name="Demo1Test" class="Pratice.Demo1Test"/>
+      </group> <!-- RegressionTest -->
+      <group name="smokeTest">
+        <method signature="DemoTest.DemoTest()[pri:0, instance:Pratice.DemoTest@212bf671]" name="DemoTest" class="Pratice.DemoTest"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2023-08-22T08:56:35 IST" name="Surefire test" finished-at="2023-08-22T08:56:46 IST" duration-ms="10493">
+      <class name="Pratice.Demo1Test">
+        <test-method signature="Demo1Test()[pri:0, instance:Pratice.Demo1Test@2ed0fbae]" started-at="2023-08-22T08:56:35 IST" name="Demo1Test" finished-at="2023-08-22T08:56:35 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo1Test -->
+      </class> <!-- Pratice.Demo1Test -->
+      <class name="Pratice.DemoTest">
+        <test-method signature="DemoTest()[pri:0, instance:Pratice.DemoTest@212bf671]" started-at="2023-08-22T08:56:36 IST" name="DemoTest" finished-at="2023-08-22T08:56:46 IST" duration-ms="10396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoTest -->
+      </class> <!-- Pratice.DemoTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
